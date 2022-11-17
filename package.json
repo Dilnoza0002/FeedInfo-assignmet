@@ -1,0 +1,16 @@
+{
+  "name": "feed-info",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "openTestRunner": "node_modules/.bin/cypress open",
+    "Runtests": "node_modules/.bin/cypress run",
+    "testChrome": "npm run tests -- --browser chrome",
+    "testFirefox": "npm run tests -- --browser firefox",
+    "testHeaded": "npm run tests -- --headed"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^11.0.1"
+  }
+}
